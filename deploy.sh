@@ -12,6 +12,11 @@ sudo apt install -y nodejs
 sudo -u postgres psql -c "CREATE DATABASE trading_db;"
 sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD '123456';"
 
+# 克隆代码
+cd /root
+git clone https://github.com/whitefddd/trading-system.git
+cd trading-system
+
 # 安装项目依赖
 cd backend
 pip3 install -r requirements.txt
@@ -24,10 +29,10 @@ npm run build
 sudo bash -c 'cat > /etc/nginx/sites-available/trading_system << EOL
 server {
     listen 80;
-    server_name your-domain.com;  # 替换为你的域名
+    server_name www.100xlabs.top;
 
     location / {
-        root /path/to/your/frontend/dist;  # 替换为你的前端构建目录的实际路径
+        root /root/trading-system/frontend/dist;
         try_files \$uri \$uri/ /index.html;
     }
 
@@ -61,8 +66,8 @@ Description=Trading System
 After=network.target
 
 [Service]
-User=ubuntu
-WorkingDirectory=/path/to/your/backend  # 替换为你的后端目录的实际路径
+User=root
+WorkingDirectory=/root/trading-system/backend
 Environment="PATH=/usr/local/bin:/usr/bin:/bin"
 ExecStart=uvicorn app.main:app --host 0.0.0.0 --port 8000
 Restart=always
@@ -74,4 +79,8 @@ EOL'
 # 启动服务
 sudo systemctl daemon-reload
 sudo systemctl enable trading_system
-sudo systemctl start trading_system 
+sudo systemctl start trading_system
+
+# 添加 SSL 证书（使用 Let's Encrypt）
+sudo apt install -y certbot python3-certbot-nginx
+sudo certbot --nginx -d www.100xlabs.top --non-interactive --agree-tos --email 100xlabs168@gmail.com 
