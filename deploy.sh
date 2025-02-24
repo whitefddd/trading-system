@@ -34,8 +34,10 @@ pip install -r requirements.txt
 pip install uvicorn
 
 cd ../frontend
+# 安装全局 vite
+sudo npm install -g vite
 npm install
-npm run build
+sudo npm run build
 
 # 配置 Nginx
 sudo bash -c 'cat > /etc/nginx/sites-available/trading_system << EOL
