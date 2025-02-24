@@ -4,6 +4,9 @@
 sudo apt update
 sudo apt install -y python3-pip postgresql nginx
 
+# 安装 Python 虚拟环境
+sudo apt install -y python3-venv
+
 # 安装 Node.js
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt install -y nodejs
@@ -19,7 +22,16 @@ cd trading-system
 
 # 安装项目依赖
 cd backend
-pip3 install -r requirements.txt
+# 创建并激活虚拟环境
+python3 -m venv venv
+source venv/bin/activate
+
+# 升级 pip
+pip install --upgrade pip
+
+# 安装项目依赖
+pip install -r requirements.txt
+pip install uvicorn
 
 cd ../frontend
 npm install
@@ -68,8 +80,8 @@ After=network.target
 [Service]
 User=root
 WorkingDirectory=/root/trading-system/backend
-Environment="PATH=/usr/local/bin:/usr/bin:/bin"
-ExecStart=uvicorn app.main:app --host 0.0.0.0 --port 8000
+Environment="PATH=/root/trading-system/backend/venv/bin:/usr/local/bin:/usr/bin:/bin"
+ExecStart=/root/trading-system/backend/venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000
 Restart=always
 
 [Install]
