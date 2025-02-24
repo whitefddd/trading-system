@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket 测试</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h2>WebSocket 测试</h2>
+    <div id="status"></div>
+    <div id="messages"></div>
+
+    <script>
+        const statusDiv = document.getElementById('status');
+        const messagesDiv = document.getElementById('messages');
+
+        // 创建 WebSocket 连接
+        const ws = new WebSocket('ws://127.0.0.1:8000/api/ws/btcusdt');
+
+        // 连接建立时的回调
+        ws.onopen = () => {
+            statusDiv.innerHTML = '<span style="color: green">已连接到 WebSocket 服务器</span>';
+        };
+
+        // 接收消息的回调
+        ws.onmessage = (event) => {
+            try {
+                const data = JSON.parse(event.data);
+                const messageDiv = document.createElement('div');
+                messageDiv.innerHTML = `
+                    <p style="color: blue">
+                        时间: ${new Date().toLocaleTimeString()}<br>
+                        交易对: ${data.symbol}<br>
+                        价格: ${data.price}
+                    </p>
+                `;
+                messagesDiv.insertBefore(messageDiv, messagesDiv.firstChild);
+            } catch (error) {
+                console.error('解析消息出错:', error);
+            }
+        };
+
+        // 错误处理
+        ws.onerror = (error) => {
+            statusDiv.innerHTML += '<br><span style="color: red">WebSocket 错误</span>';
+            console.error('WebSocket 错误:', error);
+        };
+
+        // 连接关闭的回调
+        ws.onclose = () => {
+            statusDiv.innerHTML += '<br><span style="color: orange">WebSocket 连接已关闭</span>';
+        };
+    </script>
+</body>
+</html> 

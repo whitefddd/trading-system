@@ -1,0 +1,20 @@
+2025-02-24 17:40:40,089 - image_service - ERROR - Error generating strategy image: float() argument must be a string or a number, not 'NoneType'
+2025-02-24 17:41:08,698 - image_service - ERROR - Error generating strategy image: float() argument must be a string or a number, not 'NoneType'
+2025-02-24 17:42:25,198 - image_service - ERROR - Error generating strategy image: float() argument must be a string or a number, not 'NoneType'
+2025-02-24 17:43:25,312 - image_service - INFO - Successfully generated image: static/images\XEJP1_20250224_174325.png
+2025-02-24 17:46:41,615 - image_service - ERROR - Error generating strategy image: (1, -1)
+2025-02-24 17:48:01,020 - image_service - ERROR - Error setting color for row 0: (1, -1)
+2025-02-24 17:48:01,029 - image_service - ERROR - Error setting color for row 1: (2, -1)
+2025-02-24 17:48:01,030 - image_service - ERROR - Error setting color for row 2: (3, -1)
+2025-02-24 17:48:01,030 - image_service - ERROR - Error setting color for row 3: (4, -1)
+2025-02-24 17:48:01,031 - image_service - ERROR - Error setting color for row 4: (5, -1)
+2025-02-24 17:48:01,032 - image_service - ERROR - Error setting color for row 5: (6, -1)
+2025-02-24 17:48:01,032 - image_service - ERROR - Error setting color for row 6: (7, -1)
+2025-02-24 17:48:01,033 - image_service - ERROR - Error setting color for row 7: (8, -1)
+2025-02-24 17:48:01,033 - image_service - ERROR - Error setting color for row 8: (9, -1)
+2025-02-24 17:48:01,034 - image_service - ERROR - Error setting color for row 9: (10, -1)
+2025-02-24 17:48:01,035 - image_service - ERROR - Error setting color for row 10: (11, -1)
+2025-02-24 17:48:01,036 - image_service - ERROR - Error setting color for row 11: (12, -1)
+2025-02-24 17:48:02,068 - image_service - INFO - Successfully generated image: static/images\XRP趋势策略_20250224_174801.png
+2025-02-24 17:49:05,638 - image_service - INFO - Successfully generated image: static/images\XRP趋势策略_20250224_174904.png
+2025-02-24 17:50:14,823 - image_service - INFO - Successfully generated image: static/images\XRP趋势策略_20250224_175013.png

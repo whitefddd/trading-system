@@ -1,0 +1,12 @@
+2025-02-24 17:19:17,674 - telegram - ERROR - Error sending image to Telegram: _request() got an unexpected keyword argument 'files'
+2025-02-24 17:43:25,313 - telegram - ERROR - Error sending image to Telegram: _request() got an unexpected keyword argument 'files'
+2025-02-24 17:48:02,069 - telegram - ERROR - Error sending image to Telegram: _request() got an unexpected keyword argument 'files'
+2025-02-24 17:49:05,640 - telegram - ERROR - Error sending image to Telegram: I/O operation on closed file
+2025-02-24 19:30:42,754 - telegram - INFO - Initialized TelegramService with chat_id: -1002288003703
+2025-02-24 19:32:53,553 - telegram - INFO - Initialized TelegramService with chat_id: -1002288003703
+2025-02-24 19:35:09,209 - telegram - INFO - Initialized TelegramService with chat_id: -1002288003703
+2025-02-24 19:40:48,533 - telegram - ERROR - Error sending message to Telegram: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [Errno 10060] Connect call failed ('2a03:2880:f12d:83:face:b00c:0:25de', 443, 0, 0), [Errno 10060] Connect call failed ('31.13.94.23', 443)]
+2025-02-24 20:33:56,445 - telegram - ERROR - Error sending message to Telegram: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [Errno 10060] Connect call failed ('2a03:2880:f11c:8183:face:b00c:0:25de', 443, 0, 0), [Errno 10060] Connect call failed ('31.13.84.2', 443)]
+2025-02-24 20:35:34,379 - telegram - ERROR - Error sending message to Telegram: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [Errno 10060] Connect call failed ('199.16.158.9', 443), [Errno 10060] Connect call failed ('2001::c760:3d01', 443, 0, 0)]
+2025-02-24 20:37:37,612 - telegram - ERROR - Error sending message to Telegram: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [Errno 10060] Connect call failed ('2a03:2880:f10d:83:face:b00c:0:25de', 443, 0, 0), [Errno 10060] Connect call failed ('149.154.167.220', 443)]
+2025-02-24 20:42:16,145 - telegram - ERROR - Error sending message to Telegram: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [Errno 10060] Connect call failed ('2a03:2880:f10f:83:face:b00c:0:25de', 443, 0, 0), [Errno 10060] Connect call failed ('199.96.59.19', 443)]

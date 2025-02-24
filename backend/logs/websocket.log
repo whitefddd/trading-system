@@ -1,0 +1,771 @@
+2025-02-24 16:43:41,006 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 16:43:41,007 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 16:43:41,429 - websocket - ERROR - Error receiving message: 1001
+2025-02-24 16:43:41,429 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 16:43:41,907 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 16:43:41,907 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 16:43:41,908 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 16:43:41,908 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 16:45:05,523 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 16:45:05,531 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 16:45:46,961 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 16:45:46,961 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 16:46:20,141 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 16:46:20,141 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 16:47:14,036 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 16:47:14,037 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 16:47:39,130 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 16:47:39,131 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 16:48:19,950 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 16:48:19,951 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 16:49:04,926 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 16:49:04,926 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 16:49:38,445 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 16:49:38,445 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 16:50:58,728 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 16:50:58,729 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 16:51:08,752 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 16:51:08,752 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 16:51:10,742 - websocket - ERROR - Error receiving message: 1001
+2025-02-24 16:51:10,743 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 16:51:11,230 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 16:51:11,230 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 16:51:11,231 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 16:51:11,231 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 16:52:50,585 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 16:52:50,585 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 16:52:50,587 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 16:52:50,587 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 16:53:05,324 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 16:53:05,324 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 16:57:09,642 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 16:57:09,643 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 17:12:28,499 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 17:12:28,500 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 17:13:10,501 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 17:13:10,502 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 17:13:31,008 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 17:13:31,009 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 17:13:34,040 - websocket - ERROR - Error receiving message: 1001
+2025-02-24 17:13:34,041 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 17:13:34,533 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 17:13:34,533 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 17:13:34,534 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 17:13:34,534 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 17:14:46,118 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 17:14:46,118 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 17:14:46,119 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 17:14:46,119 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 17:15:07,311 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 17:15:07,312 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 17:16:06,908 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 17:16:06,909 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 17:16:54,933 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 17:16:54,934 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 17:17:01,781 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 17:17:01,782 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 17:18:05,770 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 17:18:05,770 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 17:21:09,501 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 17:21:09,502 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 17:31:25,319 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 17:31:25,320 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 17:31:53,844 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 17:31:53,845 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 17:36:46,831 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 17:36:46,832 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 17:37:46,330 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 17:37:46,330 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 17:40:29,263 - websocket - INFO - New WebSocket connection for btcusdt
+2025-02-24 17:40:29,264 - websocket - INFO - Added price callback for btcusdt
+2025-02-24 17:41:09,908 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 17:41:09,908 - websocket - INFO - Removed price callback for btcusdt
+2025-02-24 20:44:30,849 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:44:30,849 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:44:31,501 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 20:44:31,502 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:44:46,033 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:44:46,033 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:44:47,117 - websocket - ERROR - Error receiving message: 1001
+2025-02-24 20:44:47,118 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:44:48,067 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:44:48,067 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:44:48,068 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:44:48,068 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:45:30,641 - websocket - ERROR - Error receiving message: 1001
+2025-02-24 20:45:30,641 - websocket - ERROR - Error receiving message: 1001
+2025-02-24 20:45:30,649 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:45:30,649 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:45:31,968 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:45:31,968 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:45:31,968 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:45:31,970 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:45:31,970 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:45:31,970 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:45:48,028 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 20:45:48,028 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 20:45:48,028 - websocket - ERROR - Error receiving message: 1012
+2025-02-24 20:45:48,030 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:45:48,030 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:45:48,030 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:46:08,692 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:46:08,693 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:46:13,779 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:46:13,781 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:46:14,741 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:46:14,741 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:46:14,742 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:46:14,742 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:46:14,952 - websocket - INFO - Sent price update: XRPUSDT=0.55060876
+2025-02-24 20:46:14,952 - websocket - INFO - Sent price update: XRPUSDT=0.55060876
+2025-02-24 20:46:24,970 - websocket - INFO - Sent price update: XRPUSDT=0.55103156
+2025-02-24 20:46:24,970 - websocket - INFO - Sent price update: XRPUSDT=0.55103156
+2025-02-24 20:46:27,205 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:46:27,205 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:46:27,220 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:46:27,220 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:46:28,623 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:46:28,623 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:46:28,623 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:46:28,625 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:46:28,625 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:46:28,625 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:46:34,990 - websocket - INFO - Sent price update: XRPUSDT=0.55138726
+2025-02-24 20:46:34,990 - websocket - INFO - Sent price update: XRPUSDT=0.55138726
+2025-02-24 20:46:34,990 - websocket - INFO - Sent price update: XRPUSDT=0.55138726
+2025-02-24 20:46:44,994 - websocket - INFO - Sent price update: XRPUSDT=0.55204006
+2025-02-24 20:46:44,994 - websocket - INFO - Sent price update: XRPUSDT=0.55204006
+2025-02-24 20:46:44,994 - websocket - INFO - Sent price update: XRPUSDT=0.55204006
+2025-02-24 20:46:55,020 - websocket - INFO - Sent price update: XRPUSDT=0.55245548
+2025-02-24 20:46:55,020 - websocket - INFO - Sent price update: XRPUSDT=0.55245548
+2025-02-24 20:46:55,020 - websocket - INFO - Sent price update: XRPUSDT=0.55245548
+2025-02-24 20:46:59,104 - websocket - INFO - Received message from client: ping
+2025-02-24 20:46:59,104 - websocket - INFO - Received message from client: ping
+2025-02-24 20:46:59,104 - websocket - INFO - Received message from client: ping
+2025-02-24 20:47:05,013 - websocket - INFO - Sent price update: XRPUSDT=0.55279205
+2025-02-24 20:47:05,013 - websocket - INFO - Sent price update: XRPUSDT=0.55279205
+2025-02-24 20:47:05,013 - websocket - INFO - Sent price update: XRPUSDT=0.55279205
+2025-02-24 20:47:15,023 - websocket - INFO - Sent price update: XRPUSDT=0.55327317
+2025-02-24 20:47:15,023 - websocket - INFO - Sent price update: XRPUSDT=0.55327317
+2025-02-24 20:47:15,023 - websocket - INFO - Sent price update: XRPUSDT=0.55327317
+2025-02-24 20:47:25,044 - websocket - INFO - Sent price update: XRPUSDT=0.55354631
+2025-02-24 20:47:25,044 - websocket - INFO - Sent price update: XRPUSDT=0.55354631
+2025-02-24 20:47:25,044 - websocket - INFO - Sent price update: XRPUSDT=0.55354631
+2025-02-24 20:47:28,677 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:47:28,677 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:47:28,677 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:47:28,679 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:47:28,679 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:47:28,679 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:47:50,270 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:47:50,271 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:47:55,079 - websocket - INFO - Sent price update: XRPUSDT=0.55110654
+2025-02-24 20:47:58,949 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:47:58,951 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:47:59,875 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:47:59,875 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:47:59,877 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:47:59,877 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:48:04,667 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:48:04,667 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:48:04,669 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:48:04,669 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:48:05,880 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:48:05,880 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:48:05,880 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:48:05,882 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:48:05,882 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:48:05,882 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:48:06,657 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:48:06,657 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:48:06,657 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:48:06,660 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:48:06,660 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:48:06,660 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:48:07,582 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:48:07,582 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:48:07,582 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:48:07,582 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:48:07,584 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:48:07,584 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:48:07,584 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:48:07,584 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:48:15,091 - websocket - INFO - Sent price update: XRPUSDT=0.55199099
+2025-02-24 20:48:15,091 - websocket - INFO - Sent price update: XRPUSDT=0.55199099
+2025-02-24 20:48:15,091 - websocket - INFO - Sent price update: XRPUSDT=0.55199099
+2025-02-24 20:48:15,091 - websocket - INFO - Sent price update: XRPUSDT=0.55199099
+2025-02-24 20:48:15,462 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:48:15,462 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:48:15,462 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:48:15,462 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:48:15,465 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:48:15,465 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:48:15,465 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:48:15,465 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:48:16,381 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:48:16,381 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:48:16,381 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:48:16,381 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:48:16,381 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:48:16,384 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:48:16,384 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:48:16,384 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:48:16,384 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:48:16,384 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:48:25,109 - websocket - INFO - Sent price update: XRPUSDT=0.55243722
+2025-02-24 20:48:25,109 - websocket - INFO - Sent price update: XRPUSDT=0.55243722
+2025-02-24 20:48:25,109 - websocket - INFO - Sent price update: XRPUSDT=0.55243722
+2025-02-24 20:48:25,109 - websocket - INFO - Sent price update: XRPUSDT=0.55243722
+2025-02-24 20:48:25,109 - websocket - INFO - Sent price update: XRPUSDT=0.55243722
+2025-02-24 20:48:35,114 - websocket - INFO - Sent price update: XRPUSDT=0.55265571
+2025-02-24 20:48:35,114 - websocket - INFO - Sent price update: XRPUSDT=0.55265571
+2025-02-24 20:48:35,114 - websocket - INFO - Sent price update: XRPUSDT=0.55265571
+2025-02-24 20:48:35,114 - websocket - INFO - Sent price update: XRPUSDT=0.55265571
+2025-02-24 20:48:35,114 - websocket - INFO - Sent price update: XRPUSDT=0.55265571
+2025-02-24 20:48:45,127 - websocket - INFO - Sent price update: XRPUSDT=0.55306016
+2025-02-24 20:48:45,127 - websocket - INFO - Sent price update: XRPUSDT=0.55306016
+2025-02-24 20:48:45,127 - websocket - INFO - Sent price update: XRPUSDT=0.55306016
+2025-02-24 20:48:45,127 - websocket - INFO - Sent price update: XRPUSDT=0.55306016
+2025-02-24 20:48:45,127 - websocket - INFO - Sent price update: XRPUSDT=0.55306016
+2025-02-24 20:48:47,098 - websocket - INFO - Received message from client: ping
+2025-02-24 20:48:47,098 - websocket - INFO - Received message from client: ping
+2025-02-24 20:48:47,098 - websocket - INFO - Received message from client: ping
+2025-02-24 20:48:47,098 - websocket - INFO - Received message from client: ping
+2025-02-24 20:48:47,098 - websocket - INFO - Received message from client: ping
+2025-02-24 20:48:55,140 - websocket - INFO - Sent price update: XRPUSDT=0.5537431
+2025-02-24 20:48:55,140 - websocket - INFO - Sent price update: XRPUSDT=0.5537431
+2025-02-24 20:48:55,140 - websocket - INFO - Sent price update: XRPUSDT=0.5537431
+2025-02-24 20:48:55,140 - websocket - INFO - Sent price update: XRPUSDT=0.5537431
+2025-02-24 20:48:55,140 - websocket - INFO - Sent price update: XRPUSDT=0.5537431
+2025-02-24 20:49:05,122 - websocket - INFO - Sent price update: XRPUSDT=0.55402517
+2025-02-24 20:49:05,122 - websocket - INFO - Sent price update: XRPUSDT=0.55402517
+2025-02-24 20:49:05,122 - websocket - INFO - Sent price update: XRPUSDT=0.55402517
+2025-02-24 20:49:05,122 - websocket - INFO - Sent price update: XRPUSDT=0.55402517
+2025-02-24 20:49:05,122 - websocket - INFO - Sent price update: XRPUSDT=0.55402517
+2025-02-24 20:49:15,141 - websocket - INFO - Sent price update: XRPUSDT=0.55467669
+2025-02-24 20:49:15,141 - websocket - INFO - Sent price update: XRPUSDT=0.55467669
+2025-02-24 20:49:15,141 - websocket - INFO - Sent price update: XRPUSDT=0.55467669
+2025-02-24 20:49:15,141 - websocket - INFO - Sent price update: XRPUSDT=0.55467669
+2025-02-24 20:49:15,141 - websocket - INFO - Sent price update: XRPUSDT=0.55467669
+2025-02-24 20:49:17,099 - websocket - INFO - Received message from client: ping
+2025-02-24 20:49:17,099 - websocket - INFO - Received message from client: ping
+2025-02-24 20:49:17,099 - websocket - INFO - Received message from client: ping
+2025-02-24 20:49:17,099 - websocket - INFO - Received message from client: ping
+2025-02-24 20:49:17,099 - websocket - INFO - Received message from client: ping
+2025-02-24 20:49:25,151 - websocket - INFO - Sent price update: XRPUSDT=0.55528302
+2025-02-24 20:49:25,151 - websocket - INFO - Sent price update: XRPUSDT=0.55528302
+2025-02-24 20:49:25,151 - websocket - INFO - Sent price update: XRPUSDT=0.55528302
+2025-02-24 20:49:25,151 - websocket - INFO - Sent price update: XRPUSDT=0.55528302
+2025-02-24 20:49:25,151 - websocket - INFO - Sent price update: XRPUSDT=0.55528302
+2025-02-24 20:49:35,175 - websocket - INFO - Sent price update: XRPUSDT=0.55480882
+2025-02-24 20:49:35,175 - websocket - INFO - Sent price update: XRPUSDT=0.55480882
+2025-02-24 20:49:35,175 - websocket - INFO - Sent price update: XRPUSDT=0.55480882
+2025-02-24 20:49:35,175 - websocket - INFO - Sent price update: XRPUSDT=0.55480882
+2025-02-24 20:49:35,175 - websocket - INFO - Sent price update: XRPUSDT=0.55480882
+2025-02-24 20:49:45,178 - websocket - INFO - Sent price update: XRPUSDT=0.55466521
+2025-02-24 20:49:45,178 - websocket - INFO - Sent price update: XRPUSDT=0.55466521
+2025-02-24 20:49:45,178 - websocket - INFO - Sent price update: XRPUSDT=0.55466521
+2025-02-24 20:49:45,178 - websocket - INFO - Sent price update: XRPUSDT=0.55466521
+2025-02-24 20:49:45,178 - websocket - INFO - Sent price update: XRPUSDT=0.55466521
+2025-02-24 20:49:47,098 - websocket - INFO - Received message from client: ping
+2025-02-24 20:49:47,098 - websocket - INFO - Received message from client: ping
+2025-02-24 20:49:47,098 - websocket - INFO - Received message from client: ping
+2025-02-24 20:49:47,098 - websocket - INFO - Received message from client: ping
+2025-02-24 20:49:47,098 - websocket - INFO - Received message from client: ping
+2025-02-24 20:49:55,181 - websocket - INFO - Sent price update: XRPUSDT=0.55450418
+2025-02-24 20:49:55,181 - websocket - INFO - Sent price update: XRPUSDT=0.55450418
+2025-02-24 20:49:55,181 - websocket - INFO - Sent price update: XRPUSDT=0.55450418
+2025-02-24 20:49:55,181 - websocket - INFO - Sent price update: XRPUSDT=0.55450418
+2025-02-24 20:49:55,181 - websocket - INFO - Sent price update: XRPUSDT=0.55450418
+2025-02-24 20:50:00,929 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:50:00,929 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:50:00,929 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:50:00,929 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:50:00,929 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:50:00,932 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:50:00,932 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:50:00,932 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:50:00,932 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:50:00,932 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:50:22,856 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:50:22,857 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:50:26,876 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:50:26,880 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:50:27,817 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:50:27,817 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:50:27,818 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:50:27,818 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:50:28,224 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:50:28,224 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:50:28,227 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:50:28,227 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:50:29,126 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:50:29,126 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:50:29,126 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:50:29,128 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:50:29,128 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:50:29,128 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:50:32,474 - websocket - INFO - Sent price update: XRPUSDT=0.54920374
+2025-02-24 20:50:32,474 - websocket - INFO - Sent price update: XRPUSDT=0.54920374
+2025-02-24 20:50:32,474 - websocket - INFO - Sent price update: XRPUSDT=0.54920374
+2025-02-24 20:50:40,028 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:50:40,028 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:50:40,028 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:50:40,034 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:50:40,034 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:50:40,034 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:50:40,958 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:50:40,958 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:50:40,958 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:50:40,958 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:50:40,961 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:50:40,961 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:50:40,961 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:50:40,961 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:50:42,491 - websocket - INFO - Sent price update: XRPUSDT=0.54869247
+2025-02-24 20:50:42,491 - websocket - INFO - Sent price update: XRPUSDT=0.54869247
+2025-02-24 20:50:42,491 - websocket - INFO - Sent price update: XRPUSDT=0.54869247
+2025-02-24 20:50:42,491 - websocket - INFO - Sent price update: XRPUSDT=0.54869247
+2025-02-24 20:50:45,957 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:50:45,957 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:50:45,957 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:50:45,957 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:50:45,968 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:50:45,968 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:50:45,968 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:50:45,968 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:50:47,332 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:50:47,332 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:50:47,332 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:50:47,332 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:50:47,332 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:50:47,334 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:50:47,334 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:50:47,334 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:50:47,334 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:50:47,334 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:50:52,499 - websocket - INFO - Sent price update: XRPUSDT=0.54835234
+2025-02-24 20:50:52,499 - websocket - INFO - Sent price update: XRPUSDT=0.54835234
+2025-02-24 20:50:52,499 - websocket - INFO - Sent price update: XRPUSDT=0.54835234
+2025-02-24 20:50:52,499 - websocket - INFO - Sent price update: XRPUSDT=0.54835234
+2025-02-24 20:50:52,499 - websocket - INFO - Sent price update: XRPUSDT=0.54835234
+2025-02-24 20:51:02,521 - websocket - INFO - Sent price update: XRPUSDT=0.54769919
+2025-02-24 20:51:02,521 - websocket - INFO - Sent price update: XRPUSDT=0.54769919
+2025-02-24 20:51:02,521 - websocket - INFO - Sent price update: XRPUSDT=0.54769919
+2025-02-24 20:51:02,521 - websocket - INFO - Sent price update: XRPUSDT=0.54769919
+2025-02-24 20:51:02,521 - websocket - INFO - Sent price update: XRPUSDT=0.54769919
+2025-02-24 20:51:12,536 - websocket - INFO - Sent price update: XRPUSDT=0.54705218
+2025-02-24 20:51:12,536 - websocket - INFO - Sent price update: XRPUSDT=0.54705218
+2025-02-24 20:51:12,536 - websocket - INFO - Sent price update: XRPUSDT=0.54705218
+2025-02-24 20:51:12,536 - websocket - INFO - Sent price update: XRPUSDT=0.54705218
+2025-02-24 20:51:12,536 - websocket - INFO - Sent price update: XRPUSDT=0.54705218
+2025-02-24 20:51:18,098 - websocket - INFO - Received message from client: ping
+2025-02-24 20:51:18,098 - websocket - INFO - Received message from client: ping
+2025-02-24 20:51:18,098 - websocket - INFO - Received message from client: ping
+2025-02-24 20:51:18,098 - websocket - INFO - Received message from client: ping
+2025-02-24 20:51:18,098 - websocket - INFO - Received message from client: ping
+2025-02-24 20:51:22,535 - websocket - INFO - Sent price update: XRPUSDT=0.54656966
+2025-02-24 20:51:22,535 - websocket - INFO - Sent price update: XRPUSDT=0.54656966
+2025-02-24 20:51:22,535 - websocket - INFO - Sent price update: XRPUSDT=0.54656966
+2025-02-24 20:51:22,535 - websocket - INFO - Sent price update: XRPUSDT=0.54656966
+2025-02-24 20:51:22,535 - websocket - INFO - Sent price update: XRPUSDT=0.54656966
+2025-02-24 20:51:32,546 - websocket - INFO - Sent price update: XRPUSDT=0.54621784
+2025-02-24 20:51:32,546 - websocket - INFO - Sent price update: XRPUSDT=0.54621784
+2025-02-24 20:51:32,546 - websocket - INFO - Sent price update: XRPUSDT=0.54621784
+2025-02-24 20:51:32,546 - websocket - INFO - Sent price update: XRPUSDT=0.54621784
+2025-02-24 20:51:32,546 - websocket - INFO - Sent price update: XRPUSDT=0.54621784
+2025-02-24 20:51:42,547 - websocket - INFO - Sent price update: XRPUSDT=0.54573143
+2025-02-24 20:51:42,547 - websocket - INFO - Sent price update: XRPUSDT=0.54573143
+2025-02-24 20:51:42,547 - websocket - INFO - Sent price update: XRPUSDT=0.54573143
+2025-02-24 20:51:42,547 - websocket - INFO - Sent price update: XRPUSDT=0.54573143
+2025-02-24 20:51:42,547 - websocket - INFO - Sent price update: XRPUSDT=0.54573143
+2025-02-24 20:51:48,095 - websocket - INFO - Received message from client: ping
+2025-02-24 20:51:48,095 - websocket - INFO - Received message from client: ping
+2025-02-24 20:51:48,095 - websocket - INFO - Received message from client: ping
+2025-02-24 20:51:48,095 - websocket - INFO - Received message from client: ping
+2025-02-24 20:51:48,095 - websocket - INFO - Received message from client: ping
+2025-02-24 20:51:51,843 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:51:51,843 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:51:51,843 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:51:51,843 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:51:51,843 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:51:51,846 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:51:51,846 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:51:51,846 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:51:51,846 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:51:51,846 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:52:19,722 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:52:19,722 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:52:19,952 - websocket - INFO - Sent price update: XRPUSDT=0.55036108
+2025-02-24 20:52:20,971 - websocket - INFO - Sent price update: XRPUSDT=0.55038577
+2025-02-24 20:52:21,965 - websocket - INFO - Sent price update: XRPUSDT=0.55045114
+2025-02-24 20:52:22,970 - websocket - INFO - Sent price update: XRPUSDT=0.55091823
+2025-02-24 20:52:23,964 - websocket - INFO - Sent price update: XRPUSDT=0.55123474
+2025-02-24 20:52:24,975 - websocket - INFO - Sent price update: XRPUSDT=0.55142154
+2025-02-24 20:52:25,996 - websocket - INFO - Sent price update: XRPUSDT=0.5514285
+2025-02-24 20:52:27,022 - websocket - INFO - Sent price update: XRPUSDT=0.55154466
+2025-02-24 20:52:28,037 - websocket - INFO - Sent price update: XRPUSDT=0.55195494
+2025-02-24 20:52:29,053 - websocket - INFO - Sent price update: XRPUSDT=0.55229718
+2025-02-24 20:52:30,052 - websocket - INFO - Sent price update: XRPUSDT=0.55270336
+2025-02-24 20:52:31,066 - websocket - INFO - Sent price update: XRPUSDT=0.55325967
+2025-02-24 20:52:32,083 - websocket - INFO - Sent price update: XRPUSDT=0.5526391
+2025-02-24 20:52:32,540 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:52:32,542 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:52:33,488 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:52:33,488 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:52:33,489 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:52:33,489 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:52:34,103 - websocket - INFO - Sent price update: XRPUSDT=0.55189933
+2025-02-24 20:52:34,103 - websocket - INFO - Sent price update: XRPUSDT=0.55189933
+2025-02-24 20:52:35,107 - websocket - INFO - Sent price update: XRPUSDT=0.55132636
+2025-02-24 20:52:35,107 - websocket - INFO - Sent price update: XRPUSDT=0.55132636
+2025-02-24 20:52:36,127 - websocket - INFO - Sent price update: XRPUSDT=0.55073862
+2025-02-24 20:52:36,127 - websocket - INFO - Sent price update: XRPUSDT=0.55073862
+2025-02-24 20:52:37,134 - websocket - INFO - Sent price update: XRPUSDT=0.55033163
+2025-02-24 20:52:37,134 - websocket - INFO - Sent price update: XRPUSDT=0.55033163
+2025-02-24 20:52:38,140 - websocket - INFO - Sent price update: XRPUSDT=0.55010712
+2025-02-24 20:52:38,140 - websocket - INFO - Sent price update: XRPUSDT=0.55010712
+2025-02-24 20:52:39,160 - websocket - INFO - Sent price update: XRPUSDT=0.54949841
+2025-02-24 20:52:39,160 - websocket - INFO - Sent price update: XRPUSDT=0.54949841
+2025-02-24 20:52:40,154 - websocket - INFO - Sent price update: XRPUSDT=0.54933225
+2025-02-24 20:52:40,154 - websocket - INFO - Sent price update: XRPUSDT=0.54933225
+2025-02-24 20:52:41,156 - websocket - INFO - Sent price update: XRPUSDT=0.54897555
+2025-02-24 20:52:41,156 - websocket - INFO - Sent price update: XRPUSDT=0.54897555
+2025-02-24 20:52:42,178 - websocket - INFO - Sent price update: XRPUSDT=0.54919731
+2025-02-24 20:52:42,178 - websocket - INFO - Sent price update: XRPUSDT=0.54919731
+2025-02-24 20:52:43,198 - websocket - INFO - Sent price update: XRPUSDT=0.54972889
+2025-02-24 20:52:43,198 - websocket - INFO - Sent price update: XRPUSDT=0.54972889
+2025-02-24 20:52:44,217 - websocket - INFO - Sent price update: XRPUSDT=0.5504281
+2025-02-24 20:52:44,217 - websocket - INFO - Sent price update: XRPUSDT=0.5504281
+2025-02-24 20:52:45,222 - websocket - INFO - Sent price update: XRPUSDT=0.55106899
+2025-02-24 20:52:45,222 - websocket - INFO - Sent price update: XRPUSDT=0.55106899
+2025-02-24 20:52:46,218 - websocket - INFO - Sent price update: XRPUSDT=0.55122827
+2025-02-24 20:52:46,218 - websocket - INFO - Sent price update: XRPUSDT=0.55122827
+2025-02-24 20:52:47,226 - websocket - INFO - Sent price update: XRPUSDT=0.55189894
+2025-02-24 20:52:47,226 - websocket - INFO - Sent price update: XRPUSDT=0.55189894
+2025-02-24 20:52:48,247 - websocket - INFO - Sent price update: XRPUSDT=0.55241001
+2025-02-24 20:52:48,247 - websocket - INFO - Sent price update: XRPUSDT=0.55241001
+2025-02-24 20:52:49,269 - websocket - INFO - Sent price update: XRPUSDT=0.55309266
+2025-02-24 20:52:49,269 - websocket - INFO - Sent price update: XRPUSDT=0.55309266
+2025-02-24 20:52:50,282 - websocket - INFO - Sent price update: XRPUSDT=0.55358349
+2025-02-24 20:52:50,282 - websocket - INFO - Sent price update: XRPUSDT=0.55358349
+2025-02-24 20:52:51,284 - websocket - INFO - Sent price update: XRPUSDT=0.55378354
+2025-02-24 20:52:51,284 - websocket - INFO - Sent price update: XRPUSDT=0.55378354
+2025-02-24 20:52:52,300 - websocket - INFO - Sent price update: XRPUSDT=0.55422204
+2025-02-24 20:52:52,300 - websocket - INFO - Sent price update: XRPUSDT=0.55422204
+2025-02-24 20:52:53,326 - websocket - INFO - Sent price update: XRPUSDT=0.5538816
+2025-02-24 20:52:53,326 - websocket - INFO - Sent price update: XRPUSDT=0.5538816
+2025-02-24 20:52:54,353 - websocket - INFO - Sent price update: XRPUSDT=0.55373014
+2025-02-24 20:52:54,353 - websocket - INFO - Sent price update: XRPUSDT=0.55373014
+2025-02-24 20:52:55,371 - websocket - INFO - Sent price update: XRPUSDT=0.55357174
+2025-02-24 20:52:55,371 - websocket - INFO - Sent price update: XRPUSDT=0.55357174
+2025-02-24 20:52:56,387 - websocket - INFO - Sent price update: XRPUSDT=0.55310393
+2025-02-24 20:52:56,387 - websocket - INFO - Sent price update: XRPUSDT=0.55310393
+2025-02-24 20:52:57,408 - websocket - INFO - Sent price update: XRPUSDT=0.55298393
+2025-02-24 20:52:57,408 - websocket - INFO - Sent price update: XRPUSDT=0.55298393
+2025-02-24 20:52:58,424 - websocket - INFO - Sent price update: XRPUSDT=0.552458
+2025-02-24 20:52:58,424 - websocket - INFO - Sent price update: XRPUSDT=0.552458
+2025-02-24 20:52:59,414 - websocket - INFO - Sent price update: XRPUSDT=0.5523894
+2025-02-24 20:52:59,414 - websocket - INFO - Sent price update: XRPUSDT=0.5523894
+2025-02-24 20:53:00,424 - websocket - INFO - Sent price update: XRPUSDT=0.55222789
+2025-02-24 20:53:00,424 - websocket - INFO - Sent price update: XRPUSDT=0.55222789
+2025-02-24 20:53:01,440 - websocket - INFO - Sent price update: XRPUSDT=0.55185447
+2025-02-24 20:53:01,440 - websocket - INFO - Sent price update: XRPUSDT=0.55185447
+2025-02-24 20:53:02,432 - websocket - INFO - Sent price update: XRPUSDT=0.5514198
+2025-02-24 20:53:02,432 - websocket - INFO - Sent price update: XRPUSDT=0.5514198
+2025-02-24 20:53:03,439 - websocket - INFO - Sent price update: XRPUSDT=0.55123302
+2025-02-24 20:53:03,439 - websocket - INFO - Sent price update: XRPUSDT=0.55123302
+2025-02-24 20:53:04,095 - websocket - INFO - Received message from client: ping
+2025-02-24 20:53:04,095 - websocket - INFO - Received message from client: ping
+2025-02-24 20:53:04,457 - websocket - INFO - Sent price update: XRPUSDT=0.55090708
+2025-02-24 20:53:04,457 - websocket - INFO - Sent price update: XRPUSDT=0.55090708
+2025-02-24 20:53:05,468 - websocket - INFO - Sent price update: XRPUSDT=0.55120179
+2025-02-24 20:53:05,468 - websocket - INFO - Sent price update: XRPUSDT=0.55120179
+2025-02-24 20:53:06,465 - websocket - INFO - Sent price update: XRPUSDT=0.55159855
+2025-02-24 20:53:06,465 - websocket - INFO - Sent price update: XRPUSDT=0.55159855
+2025-02-24 20:53:07,477 - websocket - INFO - Sent price update: XRPUSDT=0.55202116
+2025-02-24 20:53:07,477 - websocket - INFO - Sent price update: XRPUSDT=0.55202116
+2025-02-24 20:53:08,495 - websocket - INFO - Sent price update: XRPUSDT=0.55259958
+2025-02-24 20:53:08,495 - websocket - INFO - Sent price update: XRPUSDT=0.55259958
+2025-02-24 20:53:09,519 - websocket - INFO - Sent price update: XRPUSDT=0.55330579
+2025-02-24 20:53:09,519 - websocket - INFO - Sent price update: XRPUSDT=0.55330579
+2025-02-24 20:53:10,522 - websocket - INFO - Sent price update: XRPUSDT=0.55375839
+2025-02-24 20:53:10,522 - websocket - INFO - Sent price update: XRPUSDT=0.55375839
+2025-02-24 20:53:11,531 - websocket - INFO - Sent price update: XRPUSDT=0.5544092
+2025-02-24 20:53:11,531 - websocket - INFO - Sent price update: XRPUSDT=0.5544092
+2025-02-24 20:53:12,542 - websocket - INFO - Sent price update: XRPUSDT=0.55487188
+2025-02-24 20:53:12,542 - websocket - INFO - Sent price update: XRPUSDT=0.55487188
+2025-02-24 20:53:13,553 - websocket - INFO - Sent price update: XRPUSDT=0.55549662
+2025-02-24 20:53:13,553 - websocket - INFO - Sent price update: XRPUSDT=0.55549662
+2025-02-24 20:53:14,560 - websocket - INFO - Sent price update: XRPUSDT=0.55584537
+2025-02-24 20:53:14,560 - websocket - INFO - Sent price update: XRPUSDT=0.55584537
+2025-02-24 20:53:15,572 - websocket - INFO - Sent price update: XRPUSDT=0.55625239
+2025-02-24 20:53:15,572 - websocket - INFO - Sent price update: XRPUSDT=0.55625239
+2025-02-24 20:53:16,600 - websocket - INFO - Sent price update: XRPUSDT=0.55602812
+2025-02-24 20:53:16,600 - websocket - INFO - Sent price update: XRPUSDT=0.55602812
+2025-02-24 20:53:16,927 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:53:16,927 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:53:16,928 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:53:16,928 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:54:03,806 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:54:03,807 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:54:04,121 - websocket - INFO - Sent price update: XRPUSDT=0.55297919
+2025-02-24 20:54:05,140 - websocket - INFO - Sent price update: XRPUSDT=0.55358031
+2025-02-24 20:54:06,129 - websocket - INFO - Sent price update: XRPUSDT=0.55403864
+2025-02-24 20:54:07,123 - websocket - INFO - Sent price update: XRPUSDT=0.55433489
+2025-02-24 20:54:08,149 - websocket - INFO - Sent price update: XRPUSDT=0.55493025
+2025-02-24 20:54:09,159 - websocket - INFO - Sent price update: XRPUSDT=0.55560226
+2025-02-24 20:54:10,166 - websocket - INFO - Sent price update: XRPUSDT=0.55581386
+2025-02-24 20:54:11,171 - websocket - INFO - Sent price update: XRPUSDT=0.55600052
+2025-02-24 20:54:12,177 - websocket - INFO - Sent price update: XRPUSDT=0.55622682
+2025-02-24 20:54:12,611 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:54:12,612 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:55:37,425 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:55:37,426 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:55:38,001 - websocket - INFO - Sent price update: XRPUSDT=0.54737119
+2025-02-24 20:55:39,020 - websocket - INFO - Sent price update: XRPUSDT=0.54704059
+2025-02-24 20:55:40,010 - websocket - INFO - Sent price update: XRPUSDT=0.54656455
+2025-02-24 20:55:40,862 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:55:40,864 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:55:42,264 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:55:42,264 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:55:42,266 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:55:42,266 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:55:42,699 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:55:42,699 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:55:42,703 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:55:42,703 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:55:43,741 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:55:43,741 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:55:43,741 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:55:43,792 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:55:43,792 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:55:43,792 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:55:44,037 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:55:44,037 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:55:44,037 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:55:44,046 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:55:44,046 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:55:44,046 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:55:44,993 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:55:44,993 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:55:44,993 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:55:44,993 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:55:44,995 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:55:44,995 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:55:44,995 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:55:44,995 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:55:45,132 - websocket - INFO - Sent price update: XRPUSDT=0.5449909
+2025-02-24 20:55:45,132 - websocket - INFO - Sent price update: XRPUSDT=0.5449909
+2025-02-24 20:55:45,132 - websocket - INFO - Sent price update: XRPUSDT=0.5449909
+2025-02-24 20:55:45,132 - websocket - INFO - Sent price update: XRPUSDT=0.5449909
+2025-02-24 20:55:46,127 - websocket - INFO - Sent price update: XRPUSDT=0.54449175
+2025-02-24 20:55:46,127 - websocket - INFO - Sent price update: XRPUSDT=0.54449175
+2025-02-24 20:55:46,127 - websocket - INFO - Sent price update: XRPUSDT=0.54449175
+2025-02-24 20:55:46,127 - websocket - INFO - Sent price update: XRPUSDT=0.54449175
+2025-02-24 20:55:47,138 - websocket - INFO - Sent price update: XRPUSDT=0.54431474
+2025-02-24 20:55:47,138 - websocket - INFO - Sent price update: XRPUSDT=0.54431474
+2025-02-24 20:55:47,138 - websocket - INFO - Sent price update: XRPUSDT=0.54431474
+2025-02-24 20:55:47,138 - websocket - INFO - Sent price update: XRPUSDT=0.54431474
+2025-02-24 20:55:48,153 - websocket - INFO - Sent price update: XRPUSDT=0.54369717
+2025-02-24 20:55:48,153 - websocket - INFO - Sent price update: XRPUSDT=0.54369717
+2025-02-24 20:55:48,153 - websocket - INFO - Sent price update: XRPUSDT=0.54369717
+2025-02-24 20:55:48,153 - websocket - INFO - Sent price update: XRPUSDT=0.54369717
+2025-02-24 20:55:49,167 - websocket - INFO - Sent price update: XRPUSDT=0.5437144
+2025-02-24 20:55:49,167 - websocket - INFO - Sent price update: XRPUSDT=0.5437144
+2025-02-24 20:55:49,167 - websocket - INFO - Sent price update: XRPUSDT=0.5437144
+2025-02-24 20:55:49,167 - websocket - INFO - Sent price update: XRPUSDT=0.5437144
+2025-02-24 20:55:50,189 - websocket - INFO - Sent price update: XRPUSDT=0.54368465
+2025-02-24 20:55:50,189 - websocket - INFO - Sent price update: XRPUSDT=0.54368465
+2025-02-24 20:55:50,189 - websocket - INFO - Sent price update: XRPUSDT=0.54368465
+2025-02-24 20:55:50,189 - websocket - INFO - Sent price update: XRPUSDT=0.54368465
+2025-02-24 20:55:51,199 - websocket - INFO - Sent price update: XRPUSDT=0.54384606
+2025-02-24 20:55:51,199 - websocket - INFO - Sent price update: XRPUSDT=0.54384606
+2025-02-24 20:55:51,199 - websocket - INFO - Sent price update: XRPUSDT=0.54384606
+2025-02-24 20:55:51,199 - websocket - INFO - Sent price update: XRPUSDT=0.54384606
+2025-02-24 20:55:52,214 - websocket - INFO - Sent price update: XRPUSDT=0.54408044
+2025-02-24 20:55:52,214 - websocket - INFO - Sent price update: XRPUSDT=0.54408044
+2025-02-24 20:55:52,214 - websocket - INFO - Sent price update: XRPUSDT=0.54408044
+2025-02-24 20:55:52,214 - websocket - INFO - Sent price update: XRPUSDT=0.54408044
+2025-02-24 20:55:52,722 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:55:52,722 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:55:52,722 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:55:52,722 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:55:52,724 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:55:52,724 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:55:52,724 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:55:52,724 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:56:54,584 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:56:54,584 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:56:55,175 - websocket - INFO - Sent price update: XRPUSDT=0.54942164
+2025-02-24 20:56:56,180 - websocket - INFO - Sent price update: XRPUSDT=0.54931681
+2025-02-24 20:56:57,201 - websocket - INFO - Sent price update: XRPUSDT=0.54931352
+2025-02-24 20:56:58,220 - websocket - INFO - Sent price update: XRPUSDT=0.549012
+2025-02-24 20:56:59,224 - websocket - INFO - Sent price update: XRPUSDT=0.54873649
+2025-02-24 20:57:00,201 - websocket - INFO - Sent price update: XRPUSDT=0.54852666
+2025-02-24 20:57:01,225 - websocket - INFO - Sent price update: XRPUSDT=0.54806931
+2025-02-24 20:57:02,225 - websocket - INFO - Sent price update: XRPUSDT=0.54763614
+2025-02-24 20:57:03,227 - websocket - INFO - Sent price update: XRPUSDT=0.54749095
+2025-02-24 20:57:04,245 - websocket - INFO - Sent price update: XRPUSDT=0.5473292
+2025-02-24 20:57:05,252 - websocket - INFO - Sent price update: XRPUSDT=0.54701074
+2025-02-24 20:57:05,884 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:57:05,899 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:57:06,990 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:57:06,990 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:57:06,991 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:57:06,991 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:57:07,273 - websocket - INFO - Sent price update: XRPUSDT=0.54714062
+2025-02-24 20:57:07,273 - websocket - INFO - Sent price update: XRPUSDT=0.54714062
+2025-02-24 20:57:07,433 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:57:07,433 - websocket - ERROR - WebSocket error: 1001
+2025-02-24 20:57:07,440 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:57:07,440 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:57:08,377 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:57:08,377 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:57:08,377 - websocket - INFO - New WebSocket connection for xrpusdt
+2025-02-24 20:57:08,379 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:57:08,379 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:57:08,379 - websocket - INFO - Added price callback for xrpusdt
+2025-02-24 20:57:09,321 - websocket - INFO - Sent price update: XRPUSDT=0.54796085
+2025-02-24 20:57:09,321 - websocket - INFO - Sent price update: XRPUSDT=0.54796085
+2025-02-24 20:57:09,321 - websocket - INFO - Sent price update: XRPUSDT=0.54796085
+2025-02-24 20:57:10,330 - websocket - INFO - Sent price update: XRPUSDT=0.54855613
+2025-02-24 20:57:10,330 - websocket - INFO - Sent price update: XRPUSDT=0.54855613
+2025-02-24 20:57:10,330 - websocket - INFO - Sent price update: XRPUSDT=0.54855613
+2025-02-24 20:57:11,326 - websocket - INFO - Sent price update: XRPUSDT=0.54893142
+2025-02-24 20:57:11,326 - websocket - INFO - Sent price update: XRPUSDT=0.54893142
+2025-02-24 20:57:11,326 - websocket - INFO - Sent price update: XRPUSDT=0.54893142
+2025-02-24 20:57:12,343 - websocket - INFO - Sent price update: XRPUSDT=0.54935775
+2025-02-24 20:57:12,343 - websocket - INFO - Sent price update: XRPUSDT=0.54935775
+2025-02-24 20:57:12,343 - websocket - INFO - Sent price update: XRPUSDT=0.54935775
+2025-02-24 20:57:13,347 - websocket - INFO - Sent price update: XRPUSDT=0.55004474
+2025-02-24 20:57:13,347 - websocket - INFO - Sent price update: XRPUSDT=0.55004474
+2025-02-24 20:57:13,347 - websocket - INFO - Sent price update: XRPUSDT=0.55004474
+2025-02-24 20:57:14,338 - websocket - INFO - Sent price update: XRPUSDT=0.55035406
+2025-02-24 20:57:14,338 - websocket - INFO - Sent price update: XRPUSDT=0.55035406
+2025-02-24 20:57:14,338 - websocket - INFO - Sent price update: XRPUSDT=0.55035406
+2025-02-24 20:57:15,328 - websocket - INFO - Sent price update: XRPUSDT=0.55075814
+2025-02-24 20:57:15,328 - websocket - INFO - Sent price update: XRPUSDT=0.55075814
+2025-02-24 20:57:15,328 - websocket - INFO - Sent price update: XRPUSDT=0.55075814
+2025-02-24 20:57:16,343 - websocket - INFO - Sent price update: XRPUSDT=0.5510366
+2025-02-24 20:57:16,343 - websocket - INFO - Sent price update: XRPUSDT=0.5510366
+2025-02-24 20:57:16,343 - websocket - INFO - Sent price update: XRPUSDT=0.5510366
+2025-02-24 20:57:16,743 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:57:16,743 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:57:16,743 - websocket - ERROR - WebSocket error: 1012
+2025-02-24 20:57:16,746 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:57:16,746 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 20:57:16,746 - websocket - INFO - Removed price callback for xrpusdt
+2025-02-24 21:14:00,328 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:14:00,328 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:14:00,328 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:14:00,328 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:14:00,328 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:14:00,328 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:14:00,328 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:14:00,328 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:14:00,328 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:18:15,317 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:18:15,317 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:18:15,317 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:18:15,317 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:18:15,317 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:18:15,317 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:18:15,317 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:18:15,317 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:18:15,317 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:18:15,317 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)
+2025-02-24 21:53:25,193 - websocket - ERROR - Error sending price update: received 1001 (going away); then sent 1001 (going away)

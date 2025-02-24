@@ -1,0 +1,141 @@
+2025-02-24 21:09:35,004 - error_handler - ERROR - Validation error: [{'type': 'missing', 'loc': ('body', 'currency'), 'msg': 'Field required', 'input': {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '0.9', 'zy_tp_trigger_px': '1.8', 'lever': '18', 'side': 'buy', 'ord_type': 'market'}, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}]
+2025-02-24 21:09:39,390 - error_handler - ERROR - Validation error: [{'type': 'missing', 'loc': ('body', 'title'), 'msg': 'Field required', 'input': {'is_close': '1', 'trade_id': 'XEJP1'}, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}, {'type': 'missing', 'loc': ('body', 'currency'), 'msg': 'Field required', 'input': {'is_close': '1', 'trade_id': 'XEJP1'}, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}]
+2025-02-24 21:10:38,190 - error_handler - ERROR - Validation error: [{'type': 'missing', 'loc': ('body', 'currency'), 'msg': 'Field required', 'input': {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '0.9', 'zy_tp_trigger_px': '1.8', 'lever': '18', 'side': 'buy', 'ord_type': 'market'}, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}]
+2025-02-24 21:10:55,842 - error_handler - ERROR - Validation error: [{'type': 'missing', 'loc': ('body', 'title'), 'msg': 'Field required', 'input': {'is_close': '1', 'trade_id': 'XEJP1'}, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}, {'type': 'missing', 'loc': ('body', 'currency'), 'msg': 'Field required', 'input': {'is_close': '1', 'trade_id': 'XEJP1'}, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}]
+2025-02-24 21:11:00,965 - error_handler - ERROR - Validation error: [{'type': 'missing', 'loc': ('body', 'title'), 'msg': 'Field required', 'input': {'is_close': '1', 'trade_id': 'XEJP1'}, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}, {'type': 'missing', 'loc': ('body', 'currency'), 'msg': 'Field required', 'input': {'is_close': '1', 'trade_id': 'XEJP1'}, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}]
+2025-02-24 21:35:40,831 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-24 21:35:40,844 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-24 21:35:40,855 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-24 21:35:40,866 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-24 21:35:40,878 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-24 21:35:40,890 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-24 21:35:40,914 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-24 21:35:40,943 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-24 21:35:40,964 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-24 21:35:40,979 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-24 21:35:42,163 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-24 21:35:43,103 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-24 21:35:44,098 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-24 21:35:45,107 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-24 21:35:46,101 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-24 21:35:47,110 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-24 21:35:48,103 - error_handler - ERROR - Database error: (psycopg2.errors.UndefinedColumn) 错误:  字段 trading_signals.currency 不存在
+LINE 1: ..., trading_signals.title AS trading_signals_title, trading_si...
+                                                             ^
+HINT:  也许您想要引用列"trading_signals.currentcy"。
+
+[SQL: SELECT trading_signals.id AS trading_signals_id, trading_signals.trade_id AS trading_signals_trade_id, trading_signals.title AS trading_signals_title, trading_signals.currency AS trading_signals_currency, trading_signals.zs_tp_trigger_px AS trading_signals_zs_tp_trigger_px, trading_signals.zy_tp_trigger_px AS trading_signals_zy_tp_trigger_px, trading_signals.lever AS trading_signals_lever, trading_signals.side AS trading_signals_side, trading_signals.is_close AS trading_signals_is_close, trading_signals.created_at AS trading_signals_created_at, trading_signals.closed_at AS trading_signals_closed_at 
+FROM trading_signals ORDER BY trading_signals.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)

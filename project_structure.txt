@@ -1,0 +1,28 @@
+trading_system/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── config.py
+│   │   ├── models/
+│   │   │   ├── __init__.py
+│   │   │   └── trading.py
+│   │   ├── services/
+│   │   │   ├── __init__.py
+│   │   │   ├── binance_ws.py
+│   │   │   └── trading_service.py
+│   │   └── api/
+│   │       ├── __init__.py
+│   │       └── endpoints.py
+│   ├── requirements.txt
+│   └── alembic/
+│       └── versions/
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── views/
+│   │   └── App.vue
+│   └── package.json
+└── docker/
+    ├── Dockerfile
+    └── docker-compose.yml 

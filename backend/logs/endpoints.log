@@ -1,0 +1,153 @@
+2025-02-24 17:40:39,523 - endpoints - INFO - Generating strategy image for trade_id: XEJP1
+2025-02-24 17:40:40,090 - endpoints - ERROR - Failed to generate strategy image for trade_id: XEJP1
+2025-02-24 17:41:08,359 - endpoints - INFO - Generating strategy image for trade_id: XEJP1
+2025-02-24 17:41:08,699 - endpoints - ERROR - Failed to generate strategy image for trade_id: XEJP1
+2025-02-24 17:42:24,602 - endpoints - INFO - Generating strategy image for trade_id: XEJP1
+2025-02-24 17:42:25,200 - endpoints - ERROR - Failed to generate strategy image for trade_id: XEJP1
+2025-02-24 17:43:24,593 - endpoints - INFO - Generating strategy image for trade_id: XEJP1
+2025-02-24 17:43:25,313 - endpoints - INFO - Strategy report sent for trade_id: XEJP1
+2025-02-24 17:46:41,230 - endpoints - INFO - Generating strategy image for trade_id: XEJP1
+2025-02-24 17:46:41,616 - endpoints - ERROR - Failed to generate strategy image for trade_id: XEJP1
+2025-02-24 17:48:00,654 - endpoints - INFO - Generating strategy image for trade_id: XEJP1
+2025-02-24 17:48:02,069 - endpoints - INFO - Strategy report sent for trade_id: XEJP1
+2025-02-24 17:49:04,042 - endpoints - INFO - Generating strategy image for trade_id: XEJP1
+2025-02-24 17:49:05,641 - endpoints - INFO - Strategy report sent for trade_id: XEJP1
+2025-02-24 17:50:13,314 - endpoints - INFO - Generating strategy image for trade_id: XEJP1
+2025-02-24 19:36:14,477 - endpoints - ERROR - Error handling signal: 'TelegramService' object has no attribute 'send_message'
+2025-02-24 21:03:07,399 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '0.9', 'zy_tp_trigger_px': '1.8', 'lever': '18', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:03:07,547 - endpoints - ERROR - Error handling signal: 'TradingSignal' object has no attribute 'currency'
+2025-02-24 21:05:26,315 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '0.9', 'zy_tp_trigger_px': '1.8', 'lever': '18', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:05:26,490 - endpoints - ERROR - Error handling signal: 'TradingSignal' object has no attribute 'currency'
+2025-02-24 21:05:30,392 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XEJP1', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 21:05:30,410 - endpoints - INFO - Created signal: {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x0000020524D9E340>}
+2025-02-24 21:11:57,992 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currency': None, 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '0.9', 'zy_tp_trigger_px': '1.8', 'lever': '18', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:11:57,993 - endpoints - ERROR - Error handling signal: 
+2025-02-24 21:12:02,960 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XEJP1', 'title': None, 'currency': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 21:12:03,339 - endpoints - INFO - Created signal: {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000001CC91216700>}
+2025-02-24 21:13:32,493 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currency': None, 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '0.9', 'zy_tp_trigger_px': '1.8', 'lever': '18', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:13:32,494 - endpoints - ERROR - Error handling signal: 
+2025-02-24 21:13:36,210 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XEJP1', 'title': None, 'currency': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 21:13:36,347 - endpoints - INFO - Created signal: {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x00000173B55465E0>}
+2025-02-24 21:14:07,133 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currency': None, 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '0.9', 'zy_tp_trigger_px': '1.8', 'lever': '18', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:14:07,134 - endpoints - ERROR - Error handling signal: 
+2025-02-24 21:14:10,850 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XEJP1', 'title': None, 'currency': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 21:14:10,861 - endpoints - INFO - Created signal: {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x00000173B5546AC0>}
+2025-02-24 21:17:41,789 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '0.9', 'zy_tp_trigger_px': '1.8', 'lever': '18', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:17:41,790 - endpoints - ERROR - Error handling signal: 'TradingSignal' object has no attribute 'currency'
+2025-02-24 21:17:55,938 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XEJP1', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 21:17:56,058 - endpoints - ERROR - Error handling signal: 'NoneType' object has no attribute '__dict__'
+2025-02-24 21:18:12,228 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '50', 'zy_tp_trigger_px': '100', 'lever': '8', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:18:12,231 - endpoints - ERROR - Error handling signal: 'TradingSignal' object has no attribute 'currency'
+2025-02-24 21:18:27,681 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '50', 'zy_tp_trigger_px': '100', 'lever': '8', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:18:27,682 - endpoints - ERROR - Error handling signal: 'TradingSignal' object has no attribute 'currency'
+2025-02-24 21:19:30,719 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '50', 'zy_tp_trigger_px': '100', 'lever': '8', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:19:30,720 - endpoints - ERROR - Error handling signal: 'TradingSignal' object has no attribute 'currency'
+2025-02-24 21:19:34,035 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '50', 'zy_tp_trigger_px': '100', 'lever': '8', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:19:34,036 - endpoints - ERROR - Error handling signal: 'TradingSignal' object has no attribute 'currency'
+2025-02-24 21:34:39,357 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '50', 'zy_tp_trigger_px': '100', 'lever': '8', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:34:39,359 - endpoints - ERROR - Error handling signal: 'TradingSignal' object has no attribute 'currency'
+2025-02-24 21:34:43,991 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XEJP1', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 21:34:44,302 - endpoints - ERROR - Error handling signal: 'NoneType' object has no attribute '__dict__'
+2025-02-24 21:41:33,927 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '50', 'zy_tp_trigger_px': '100', 'lever': '8', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:41:33,928 - endpoints - ERROR - Error handling signal: 'TradingSignal' object has no attribute 'currency'
+2025-02-24 21:41:39,552 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XEJP1', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 21:41:39,693 - endpoints - ERROR - Error handling signal: 'NoneType' object has no attribute '__dict__'
+2025-02-24 21:43:09,361 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '50', 'zy_tp_trigger_px': '100', 'lever': '8', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:44:55,320 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '50', 'zy_tp_trigger_px': '100', 'lever': '8', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:45:10,681 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XEJP1', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 21:45:29,756 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XEJP1', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 21:46:22,551 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '50', 'zy_tp_trigger_px': '100', 'lever': '8', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:46:30,707 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XEJP1', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 21:46:36,692 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '50', 'zy_tp_trigger_px': '100', 'lever': '8', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:46:40,966 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XEJP1', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 21:48:32,501 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XXX', 'title': 'Test', 'currentcy': 'XRP', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '2', 'zy_tp_trigger_px': '2.5', 'lever': '25', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:48:44,390 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XXX', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 21:51:39,119 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XXX', 'title': 'Test', 'currentcy': 'XRP', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '2', 'zy_tp_trigger_px': '2.5', 'lever': '25', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:53:33,573 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XXX', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 21:53:59,204 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'ZZZ', 'title': 'Test', 'currentcy': 'ETH', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:54:11,362 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'ZZZ', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 21:54:16,301 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'ZZZ', 'title': '123', 'currentcy': 'ETH', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:54:24,150 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'ZZZ', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 21:54:45,103 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'CCC', 'title': '456', 'currentcy': 'BTC', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 21:54:57,692 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'CCC', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:20:38,032 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'CCC', 'title': '456', 'currentcy': 'BTC', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:20:38,226 - endpoints - ERROR - Error handling signal: 'BinanceWebSocket' object has no attribute 'get_current_price'
+2025-02-24 22:21:47,190 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'CCC', 'title': '456', 'currentcy': 'BTC', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:22:09,685 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'CCC', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:23:42,858 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'CCC', 'title': '456', 'currentcy': 'BTC', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:23:54,856 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'CCC', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:24:10,825 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'CCC', 'title': '456', 'currentcy': 'BTC', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:24:21,284 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'CCC', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:24:33,989 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'CCC', 'title': '456', 'currentcy': 'BTC', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:24:38,227 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'CCC', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:24:50,768 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'CCC', 'title': '456', 'currentcy': 'BTC', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:25:09,411 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'CCC', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:26:59,441 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'CCC', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:27:05,791 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'CCC', 'title': '456', 'currentcy': 'BTC', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:27:13,954 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'CCC', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:27:29,497 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'CCC', 'title': '456', 'currentcy': 'BTC', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:27:38,042 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'CCC', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:27:56,502 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '50', 'zy_tp_trigger_px': '100', 'lever': '8', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:28:00,454 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'CCC', 'title': '456', 'currentcy': 'BTC', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:28:06,416 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'CCC', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:28:08,927 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XEJP1', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:34:16,356 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'CCC', 'title': '456', 'currentcy': 'BTC', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:34:21,375 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'CCC', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:36:44,283 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'CCC', 'title': '456', 'currentcy': 'BTC', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:36:48,776 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'CCC', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:38:13,591 - endpoints - INFO - Querying signals between 2025-02-23 14:38:12+08:00 and 2025-02-24 14:38:12+08:00
+2025-02-24 22:38:15,167 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:38:15+08:00
+2025-02-24 22:38:16,471 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:38:15+08:00
+2025-02-24 22:38:17,135 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:38:15+08:00
+2025-02-24 22:38:25,908 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'CCC', 'title': '456', 'currentcy': 'BTC', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:38:28,546 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'CCC', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:38:30,927 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:38:15+08:00
+2025-02-24 22:38:31,238 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:38:15+08:00
+2025-02-24 22:38:31,391 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:38:15+08:00
+2025-02-24 22:38:31,543 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:38:15+08:00
+2025-02-24 22:38:31,703 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:38:15+08:00
+2025-02-24 22:38:31,879 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:38:15+08:00
+2025-02-24 22:38:32,039 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:38:15+08:00
+2025-02-24 22:38:32,184 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:38:15+08:00
+2025-02-24 22:38:36,196 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:38:15+08:00
+2025-02-24 22:38:36,366 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:38:15+08:00
+2025-02-24 22:38:36,551 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:38:15+08:00
+2025-02-24 22:38:36,703 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:38:15+08:00
+2025-02-24 22:38:45,583 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:39:59+08:00
+2025-02-24 22:38:48,767 - endpoints - INFO - Querying signals between 2025-02-23 14:38:15+08:00 and 2025-02-24 14:39:59+08:00
+2025-02-24 22:39:47,629 - endpoints - INFO - Querying signals between 2025-02-23 14:39:47+08:00 and 2025-02-24 14:39:47+08:00
+2025-02-24 22:39:50,104 - endpoints - INFO - Querying signals between 2025-02-23 14:39:47+08:00 and 2025-02-24 14:39:47+08:00
+2025-02-24 22:39:50,599 - endpoints - INFO - Querying signals between 2025-02-23 14:39:47+08:00 and 2025-02-24 14:39:47+08:00
+2025-02-24 22:39:55,685 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'CCC', 'title': '456', 'currentcy': 'BTC', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:39:58,169 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'CCC', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:39:59,735 - endpoints - INFO - Querying signals between 2025-02-23 14:39:47+08:00 and 2025-02-24 14:39:47+08:00
+2025-02-24 22:40:01,865 - endpoints - INFO - Querying signals between 2025-02-23 14:40:01+08:00 and 2025-02-24 14:40:01+08:00
+2025-02-24 22:40:03,567 - endpoints - INFO - Querying signals between 2025-02-23 14:40:01+08:00 and 2025-02-24 14:40:01+08:00
+2025-02-24 22:40:03,727 - endpoints - INFO - Querying signals between 2025-02-23 14:40:01+08:00 and 2025-02-24 14:40:01+08:00
+2025-02-24 22:40:03,879 - endpoints - INFO - Querying signals between 2025-02-23 14:40:01+08:00 and 2025-02-24 14:40:01+08:00
+2025-02-24 22:40:04,039 - endpoints - INFO - Querying signals between 2025-02-23 14:40:01+08:00 and 2025-02-24 14:40:01+08:00
+2025-02-24 22:40:14,073 - endpoints - INFO - Querying signals between 2025-02-23 14:40:01+08:00 and 2025-02-24 14:40:01+08:00
+2025-02-24 22:40:14,223 - endpoints - INFO - Querying signals between 2025-02-23 14:40:01+08:00 and 2025-02-24 14:40:01+08:00
+2025-02-24 22:41:08,791 - endpoints - INFO - Querying signals between 2025-02-23 14:40:01+08:00 and 2025-02-24 14:40:01+08:00
+2025-02-24 22:41:08,945 - endpoints - INFO - Querying signals between 2025-02-23 14:40:01+08:00 and 2025-02-24 14:40:01+08:00
+2025-02-24 22:45:32,113 - endpoints - INFO - Querying signals between 2025-02-23 14:45:00+08:00 and 2025-02-25 14:45:00+08:00
+2025-02-24 22:45:41,268 - endpoints - INFO - Querying signals between 2025-02-23 14:45:00+08:00 and 2025-02-25 14:45:00+08:00
+2025-02-24 22:45:50,059 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'CCC', 'title': '456', 'currentcy': 'BTC', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:45:53,586 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'CCC', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:47:03,328 - endpoints - INFO - Querying signals between 2025-02-23 14:47:00+08:00 and 2025-02-25 14:47:00+08:00
+2025-02-24 22:48:49,513 - endpoints - INFO - Querying signals between 2025-02-23 14:48:00+08:00 and 2025-02-25 14:48:00+08:00
+2025-02-24 22:50:29,944 - endpoints - INFO - Querying signals between 2025-02-23 14:50:00+08:00 and 2025-02-25 14:50:00+08:00
+2025-02-24 22:50:39,691 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '50', 'zy_tp_trigger_px': '100', 'lever': '8', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:50:42,607 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XEJP1', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:50:47,576 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '50', 'zy_tp_trigger_px': '100', 'lever': '8', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:50:50,409 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XEJP1', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:50:53,744 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '50', 'zy_tp_trigger_px': '100', 'lever': '8', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 22:50:56,483 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XEJP1', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 22:50:58,640 - endpoints - INFO - Querying signals between 2025-02-23 14:50:00+08:00 and 2025-02-25 14:50:00+08:00
+2025-02-24 22:59:39,316 - endpoints - INFO - Querying signals between 2025-02-23 22:59:00+08:00 and 2025-02-25 22:59:00+08:00
+2025-02-24 23:18:37,825 - endpoints - INFO - Querying signals between 2025-02-23 23:18:00+08:00 and 2025-02-25 23:18:00+08:00
+2025-02-24 23:18:47,927 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'CCC', 'title': '456', 'currentcy': 'BTC', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '888', 'zy_tp_trigger_px': '666', 'lever': '50', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 23:18:51,998 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'CCC', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 23:18:55,445 - endpoints - INFO - Received signal: {'is_close': '0', 'trade_id': 'XEJP1', 'title': 'XRP趋势策略', 'currentcy': 'XRPUSDT', 'lever_max': '50', 'lever_min': '1', 'zs_tp_trigger_px': '50', 'zy_tp_trigger_px': '100', 'lever': '8', 'side': 'buy', 'ord_type': 'market'}
+2025-02-24 23:18:58,067 - endpoints - INFO - Received signal: {'is_close': '1', 'trade_id': 'XEJP1', 'title': None, 'currentcy': None, 'lever_max': None, 'lever_min': None, 'zs_tp_trigger_px': None, 'zy_tp_trigger_px': None, 'lever': None, 'side': None, 'ord_type': None}
+2025-02-24 23:18:59,718 - endpoints - INFO - Querying signals between 2025-02-23 23:18:00+08:00 and 2025-02-25 23:18:00+08:00
