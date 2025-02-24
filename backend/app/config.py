@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     PRODUCTION: bool = True
     
     # 性能相关配置
-    WORKERS: int = 4  # 根据 CPU 核心数设置
+    WORKERS: int = 4
     WORKER_CONNECTIONS: int = 1000
     
     # 监控配置
