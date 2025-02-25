@@ -4,13 +4,21 @@ import random
 from typing import Dict, Set, Callable
 from ..config import settings
 from ..utils.logger import setup_logger
+import websockets
+import logging
+
+logger = logging.getLogger("binance_ws")
 
 class BinanceWebSocket:
     def __init__(self):
-        self.connections: Dict[str, Set] = {}
-        self.prices: Dict[str, float] = {}
-        self.price_callbacks: Dict[str, Set[Callable]] = {}
+        # 基础交易对
+        self.base_symbols = ["BTC", "ETH", "XRP", "SOL", "RUNE", "1000PEPE", "W"]
+        # 转换为 USDT 交易对
+        self.symbols = [f"{symbol}USDT".lower() for symbol in self.base_symbols]
+        self.ws = None
+        self.prices = {}
         self.logger = setup_logger("binance_ws")
+        self.connected_clients = set()
         # 初始化基准价格
         self.base_prices = {
             'BTCUSDT': 52000.0,
@@ -22,24 +30,111 @@ class BinanceWebSocket:
         # 修改更新间隔为1秒
         self.update_interval = 1
         self.current_prices = {}  # 添加存储当前价格的字典
+        self.latest_prices = {}
 
-    async def connect(self, symbol: str):
-        """启动价格模拟"""
-        if symbol not in self.connections:
-            self.connections[symbol] = set()
-            self.price_callbacks[symbol] = set()
+    async def connect(self):
+        """建立 WebSocket 连接"""
+        while True:
+            try:
+                self.ws = await websockets.connect('wss://fstream.binance.com/ws')
+                self.logger.info("Connected to Binance WebSocket")
+                
+                # 订阅所有交易对的标记价格更新
+                subscription = {
+                    "method": "SUBSCRIBE",
+                    "params": [f"{symbol}@markPrice@1s" for symbol in self.symbols],
+                    "id": 1
+                }
+                
+                await self.ws.send(json.dumps(subscription))
+                self.logger.info("Subscription sent")
+                
+                # 开始接收消息
+                await self.receive_messages()
+                
+            except websockets.exceptions.ConnectionClosed:
+                self.logger.error("Binance WebSocket connection closed")
+            except Exception as e:
+                self.logger.error(f"Connection error: {e}")
             
-        symbol_upper = symbol.upper()
-        if symbol_upper not in self.trends:
-            self.trends[symbol_upper] = {
-                'direction': random.choice([-1, 1]),  # -1 表示下跌，1 表示上涨
-                'strength': random.uniform(0.0001, 0.001),  # 趋势强度
-                'steps': 0,  # 当前趋势持续的步数
-                'max_steps': random.randint(10, 30)  # 趋势改变前的最大步数
-            }
-            
-        asyncio.create_task(self.simulate_price_updates(symbol))
-        self.logger.info(f"Started price simulation for {symbol_upper}")
+            # 重连前等待
+            await asyncio.sleep(5)
+            self.logger.info("Attempting to reconnect...")
+
+    async def receive_messages(self):
+        while True:
+            try:
+                message = await self.ws.recv()
+                data = json.loads(message)
+                self.logger.debug(f"Received message: {data}")
+
+                if 's' in data and 'p' in data:
+                    symbol = data['s']
+                    price = float(data['p'])
+                    self.prices[symbol] = price
+
+                    # 只在接收到开仓信号或平仓信号时输出价格日志
+                    if 'is_close' in data or 'trade_id' in data:
+                        self.logger.info(f"Price updated for {symbol}: {price}")
+
+                    # 广播价格更新给所有连接的客户端
+                    for client in self.connected_clients.copy():
+                        try:
+                            message = {
+                                's': symbol,
+                                'p': str(price)
+                            }
+                            await client.send_json(message)
+                            self.logger.debug(f"Successfully sent price update to client: {symbol}={price}")
+                        except Exception as e:
+                            self.logger.error(f"Failed to send price update to client: {e}")
+                            self.connected_clients.remove(client)
+            except Exception as e:
+                self.logger.error(f"Error in receive_messages: {e}")
+                break
+
+    async def register(self, websocket):
+        self.connected_clients.add(websocket)
+        self.logger.info(f"Client registered, total clients: {len(self.connected_clients)}")
+        self.logger.info("Sending initial prices to new client")
+        # 发送当前价格
+        for symbol, price in self.prices.items():
+            try:
+                message = {
+                    's': symbol,
+                    'p': str(price)
+                }
+                self.logger.info(f"Sending initial message to client: {message}")
+                await websocket.send_json(message)
+                self.logger.info(f"Sent initial price to new client: {symbol}={price}")
+            except Exception as e:
+                self.logger.error(f"Error sending initial price: {e}")
+                self.connected_clients.remove(websocket)
+                raise  # 重新抛出异常，让上层处理连接问题
+
+    async def unregister(self, websocket):
+        self.connected_clients.remove(websocket)
+
+    async def start(self):
+        """启动 WebSocket 服务"""
+        while True:
+            try:
+                await self.connect()
+            except Exception as e:
+                self.logger.error(f"Connection error in start: {e}")
+            await asyncio.sleep(5)  # 重连间隔
+
+    def get_current_price(self, symbol: str) -> float:
+        """获取当前价格"""
+        # 移除可能存在的 USDT 后缀
+        symbol = symbol.upper().replace('USDT', '')
+        # 添加 USDT 后缀并转换为大写
+        symbol = f"{symbol}USDT".upper()
+        
+        price = self.prices.get(symbol)
+        if price is None:
+            self.logger.warning(f"No price found for {symbol}")
+        return price
 
     async def simulate_price_updates(self, symbol: str):
         """模拟价格更新"""
@@ -87,7 +182,7 @@ class BinanceWebSocket:
         symbol_upper = symbol.upper()
         if symbol_upper in self.prices:
             price = self.prices[symbol_upper]
-            callbacks = self.price_callbacks.get(symbol, set())
+            callbacks = self.callbacks
             for callback in callbacks:
                 try:
                     await callback(symbol_upper, price)
@@ -95,13 +190,12 @@ class BinanceWebSocket:
                     self.logger.error(f"Error in callback for {symbol_upper}: {str(e)}")
 
     def add_price_callback(self, symbol: str, callback: Callable):
-        if symbol not in self.price_callbacks:
-            self.price_callbacks[symbol] = set()
-        self.price_callbacks[symbol].add(callback)
+        if symbol not in self.callbacks:
+            self.callbacks.append(callback)
 
     def remove_price_callback(self, symbol: str, callback: Callable):
-        if symbol in self.price_callbacks:
-            self.price_callbacks[symbol].discard(callback)
+        if symbol in self.callbacks:
+            self.callbacks.remove(callback)
 
     async def start_price_updates(self, symbol: str):
         while True:
@@ -112,7 +206,7 @@ class BinanceWebSocket:
                 self.logger.info(f"Simulated price for {symbol}: {price}")
                 
                 # 调用所有回调
-                callbacks = self.price_callbacks.get(symbol, [])
+                callbacks = self.callbacks
                 for callback in list(callbacks):
                     if not await callback(symbol, price):
                         callbacks.remove(callback)
@@ -122,12 +216,16 @@ class BinanceWebSocket:
                 self.logger.error(f"Error in price updates for {symbol}: {e}")
                 await asyncio.sleep(1)
 
-    def get_current_price(self, symbol: str) -> float:
-        """获取当前价格"""
-        # 如果传入的是 BTC、ETH、XRP 等，需要添加 USDT 后缀
-        if not symbol.endswith('USDT'):
-            symbol = f"{symbol}USDT"
-        symbol = symbol.upper()
-        return self.prices.get(symbol)  # 使用 self.prices 而不是 self.current_prices
+    async def subscribe_symbol(self, symbol: str):
+        """动态订阅交易对"""
+        if symbol not in self.symbols:
+            self.symbols.append(symbol)
+            subscription = {
+                "method": "SUBSCRIBE",
+                "params": [f"{symbol}@markPrice@1s"],
+                "id": 1
+            }
+            await self.ws.send(json.dumps(subscription))
+            self.logger.info(f"Subscribed to {symbol} mark price updates.")
 
 binance_ws = BinanceWebSocket() 

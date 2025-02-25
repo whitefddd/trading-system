@@ -4,18 +4,18 @@
       <h1>交易信号管理系统</h1>
     </nav>
     <div class="container">
-      <SignalList />
+      <TradingDashboard />
     </div>
   </div>
 </template>
 
 <script>
-import SignalList from './components/SignalList.vue'
+import TradingDashboard from './components/TradingDashboard.vue'
 
 export default {
   name: 'App',
   components: {
-    SignalList
+    TradingDashboard
   }
 }
 </script>
@@ -23,6 +23,10 @@ export default {
 <style>
 #app {
   font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  margin: 20px;
 }
 
 .navbar {

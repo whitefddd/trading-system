@@ -1,9 +1,13 @@
 from pydantic_settings import BaseSettings
 from datetime import timedelta
+import logging
+
+# 设置日志级别
+logging.basicConfig(level=logging.INFO)  # 只输出 INFO 及以上级别的日志
 
 class Settings(BaseSettings):
     DATABASE_URL: str
-    BINANCE_WS_URL: str = "wss://fstream.binance.com/ws"
+    BINANCE_WS_URL: str = "wss://ws-fapi.binance.com/ws-fapi/v1"
     API_HOST: str = "0.0.0.0"
     API_PORT: int = 8000
     TELEGRAM_BOT_TOKEN: str = ""
@@ -18,7 +22,7 @@ class Settings(BaseSettings):
     PRODUCTION: bool = True
     
     # 性能相关配置
-    WORKERS: int = 4  # 根据 CPU 核心数设置
+    WORKERS: int = 4
     WORKER_CONNECTIONS: int = 1000
     
     # 监控配置

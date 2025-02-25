@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Request, HTTPException
+from fastapi import FastAPI, Request, HTTPException, WebSocket
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
@@ -8,7 +8,7 @@ from .api import endpoints
 from .database import engine, Base, get_db
 from .middleware.error_handler import error_handler_middleware, validation_exception_handler
 import asyncio
-from .services.binance_ws import binance_ws
+from .services.binance_ws import binance_ws, BinanceWebSocket
 from .utils.logger import setup_logger
 from fastapi.staticfiles import StaticFiles
 from fastapi.openapi.docs import (
@@ -18,6 +18,7 @@ from fastapi.openapi.docs import (
 from prometheus_client import make_asgi_app
 # from .middleware.auth_middleware import auth_middleware
 import logging
+from fastapi import WebSocketDisconnect
 
 logger = logging.getLogger(__name__)
 
@@ -95,11 +96,10 @@ app.mount("/metrics", metrics_app)
 @app.on_event("startup")
 async def startup_event():
     logger.info("Starting application...")
-    # 修改订阅的交易对列表，确保包含你要交易的币种
-    symbols = ["btcusdt", "ethusdt", "xrpusdt"]  # 添加 XRP
-    for symbol in symbols:
-        asyncio.create_task(binance_ws.connect(symbol))
-        logger.info(f"WebSocket connection started for {symbol}")
+    # 启动 WebSocket 连接
+    global binance_ws
+    binance_ws = BinanceWebSocket()
+    asyncio.create_task(binance_ws.start())
 
 @app.on_event("shutdown")
 async def shutdown_event():
@@ -113,4 +113,28 @@ async def custom_swagger_ui_html():
         oauth2_redirect_url="/docs/oauth2-redirect",
         swagger_js_url="/static/swagger-ui-bundle.js",
         swagger_css_url="/static/swagger-ui.css",
-    ) 
+    )
+
+@app.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await websocket.accept()
+    logger.info("WebSocket client connected")
+    try:
+        await binance_ws.register(websocket)
+        logger.info("WebSocket client registered for price updates")
+        while True:
+            try:
+                # 保持连接活跃
+                data = await websocket.receive_text()
+                logger.info(f"Received message from client: {data}")
+            except WebSocketDisconnect:
+                logger.info("WebSocket client disconnected")
+                break
+            except Exception as e:
+                logger.error(f"WebSocket error: {e}")
+                break
+    except Exception as e:
+        logger.error(f"Error in websocket endpoint: {e}")
+    finally:
+        logger.info("Unregistering WebSocket client")
+        await binance_ws.unregister(websocket) 

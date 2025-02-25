@@ -4,6 +4,9 @@
 sudo apt update
 sudo apt install -y python3-pip postgresql nginx
 
+# 安装 Python 虚拟环境
+sudo apt install -y python3-venv
+
 # 安装 Node.js
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt install -y nodejs
@@ -12,22 +15,38 @@ sudo apt install -y nodejs
 sudo -u postgres psql -c "CREATE DATABASE trading_db;"
 sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD '123456';"
 
+# 克隆代码
+cd /root
+git clone https://github.com/whitefddd/trading-system.git
+cd trading-system
+
 # 安装项目依赖
 cd backend
-pip3 install -r requirements.txt
+# 创建并激活虚拟环境
+python3 -m venv venv
+source venv/bin/activate
+
+# 升级 pip
+pip install --upgrade pip
+
+# 安装项目依赖
+pip install -r requirements.txt
+pip install uvicorn
 
 cd ../frontend
+# 安装全局 vite
+sudo npm install -g vite
 npm install
-npm run build
+sudo npm run build
 
 # 配置 Nginx
 sudo bash -c 'cat > /etc/nginx/sites-available/trading_system << EOL
 server {
     listen 80;
-    server_name your-domain.com;  # 替换为你的域名
+    server_name www.100xlabs.top;
 
     location / {
-        root /path/to/your/frontend/dist;  # 替换为你的前端构建目录的实际路径
+        root /root/trading-system/frontend/dist;
         try_files \$uri \$uri/ /index.html;
     }
 
@@ -61,10 +80,10 @@ Description=Trading System
 After=network.target
 
 [Service]
-User=ubuntu
-WorkingDirectory=/path/to/your/backend  # 替换为你的后端目录的实际路径
-Environment="PATH=/usr/local/bin:/usr/bin:/bin"
-ExecStart=uvicorn app.main:app --host 0.0.0.0 --port 8000
+User=root
+WorkingDirectory=/root/trading-system/backend
+Environment="PATH=/root/trading-system/backend/venv/bin:/usr/local/bin:/usr/bin:/bin"
+ExecStart=/root/trading-system/backend/venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000
 Restart=always
 
 [Install]
@@ -74,4 +93,8 @@ EOL'
 # 启动服务
 sudo systemctl daemon-reload
 sudo systemctl enable trading_system
-sudo systemctl start trading_system 
+sudo systemctl start trading_system
+
+# 添加 SSL 证书（使用 Let's Encrypt）
+sudo apt install -y certbot python3-certbot-nginx
+sudo certbot --nginx -d www.100xlabs.top --non-interactive --agree-tos --email 100xlabs168@gmail.com 
