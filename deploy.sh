@@ -97,4 +97,8 @@ sudo systemctl start trading_system
 
 # 添加 SSL 证书（使用 Let's Encrypt）
 sudo apt install -y certbot python3-certbot-nginx
+<<<<<<< HEAD
 sudo certbot --nginx -d www.100xlabs.top --non-interactive --agree-tos --email 100xlabs168@gmail.com 
+=======
+sudo certbot --nginx -d www.100xlabs.top --non-interactive --agree-tos --email 100xlabs168@gmail.com 
+>>>>>>> 6c62b5ee81ff738c98fddea8fe241e4557313d94
